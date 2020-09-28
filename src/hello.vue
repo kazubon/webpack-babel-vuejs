@@ -11,8 +11,11 @@
 export default {
   data() {
     return {
-      message: 'hello'
+      message: ''
     };
+  },
+  created() {
+    this.message = 'hello';
   }
 }
 </script>

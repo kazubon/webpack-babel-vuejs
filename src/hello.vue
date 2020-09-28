@@ -3,7 +3,6 @@
     <h1>{{message}}</h1>
     <p>
       <input v-model="message">
-      <input type="button" value="reset" @click="reset">
     </p>
   </div>
 </template>
@@ -14,11 +13,6 @@ export default {
     return {
       message: 'hello'
     };
-  },
-  methods: {
-    reset() {
-      this.message = 'hello';
-    }
   }
 }
 </script>
